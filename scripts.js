@@ -1,5 +1,8 @@
 $(document).ready(function() {
-    getQuote();
+
+	document.addEventListener('DOMContentLoaded', function() {
+    getQuote();}, false);
+
 
     $('.trigger').click(function() {
         getQuote();
