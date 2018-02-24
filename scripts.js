@@ -1,7 +1,7 @@
-$(document).ready(function() {
+$(function() {
 
-	document.addEventListener('DOMContentLoaded', function() {
-    getQuote();}, false);
+	$(window).on("load", getQuote());
+
 
 
     $('.trigger').click(function() {
