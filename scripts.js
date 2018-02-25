@@ -1,6 +1,6 @@
 $(function() {
 
-	$(window).on("load", getQuote());
+	$(document).on("load", getQuote());
 
 
 
